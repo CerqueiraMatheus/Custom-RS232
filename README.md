@@ -1,8 +1,8 @@
 # RS-232 síncrono customizado com Arduino
 
-> Projeto de comunicação síncrona entre dois Arduinos, customizado com base no protocolo RS-232, desenvolvido como requisito parcial da disciplina de Redes de Computadores (SCC0142) do ICMC/USP, no primeiro semestre de 2022.
+> Projeto de comunicação síncrona entre dois Arduinos, customizado com base no protocolo [RS-232](https://en.wikipedia.org/wiki/RS-232), desenvolvido como requisito parcial da disciplina de Redes de Computadores (SCC0142) do ICMC/USP, no primeiro semestre de 2022.
 
-## Requisitos do projeto
+## Especificação dos requisitos do projeto
 
 1. A comunicação entre os Arduinos deve ser síncrona, de forma com que emissor e receptor interajam através de *clock*;
 
@@ -12,7 +12,7 @@
 
 ## Esquema de sinais esperado
 
-Conforme apresenta a figura abaixo, a comunicação deve ser feita através de dos sinais de *handshake*, **RTS** e **CTS**, além da transmissão de dados. Por se tratar de uma solução síncrona, também consta um sinal de *clock*.
+Conforme apresenta a figura abaixo, a comunicação deve ser feita através de dos sinais de *handshake*, **RTS** e **CTS**, além da transmissão de dados. Por se tratar de uma solução síncrona, também consta um sinal de *clock*. Para a checagem de erros, há a aplicação de **paridade ímpar** para todos os caracteres transmitidos e recebidos. Caso haja erro e não seja atingida a paridade esperada, é exibido um ``*``.
 
 <p align="center">
   <img src="signal.png" />
@@ -26,7 +26,7 @@ Foi construído um protótipo com auxílio da ferramenta [TinkerCad](https://www
   <img src="circuit.png" />
 </p>
 
-## Adaptações aplicadas
+## Decisões de projeto
 
 A solução foi implementada considerando a transmissão individual de caracteres em detrimento da solução de envio completo de frases. Assim, a cada caractere enviado, é realizado um novo *handshake*; foram dispensados, dessa forma, bits de início e fim de transmissão no canal de dados.
 
