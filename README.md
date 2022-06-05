@@ -15,7 +15,7 @@
 Conforme apresenta a figura abaixo, a comunicação deve ser feita através de dos sinais de *handshake*, **RTS** e **CTS**, além da transmissão de dados. Por se tratar de uma solução síncrona, também consta um sinal de *clock*. Para a checagem de erros, há a aplicação de **paridade ímpar** para todos os caracteres transmitidos e recebidos. Caso haja erro e não seja atingida a paridade esperada, é exibido um ``*``.
 
 <p align="center">
-  <img src="signal.png" />
+  <img src="signal.png" width=800/>
 </p>
 
 ## Circuito
@@ -23,7 +23,7 @@ Conforme apresenta a figura abaixo, a comunicação deve ser feita através de d
 Foi construído um protótipo com auxílio da ferramenta [TinkerCad](https://www.tinkercad.com/things/63d6NgXvJmt?sharecode=QsHwRUV66H45Ul2y8hSWyR613NitcmovdFFgzNKH6hI), usando duas placas Arduino Uno, uma *breadboard* e LEDS de controle de *handshake* e *clock*.
 
 <p align="center">
-  <img src="circuit.png" />
+  <img src="circuit.png" width=800/>
 </p>
 
 ## Decisões de projeto
@@ -33,7 +33,7 @@ A solução foi implementada considerando a transmissão individual de caractere
 ## Funcionamento
 
 <p align="center">
-  <a href="https://youtu.be/h9rj_4ujqRc"><img src="https://img.youtube.com/vi/h9rj_4ujqRc/default.jpg" /></a>
+  <a href="https://youtu.be/h9rj_4ujqRc"><img src="https://img.youtube.com/vi/h9rj_4ujqRc/0.jpg" width=800/></a>
 </p>
 
 ## Estudantes
