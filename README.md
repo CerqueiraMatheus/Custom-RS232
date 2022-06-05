@@ -20,7 +20,7 @@ Conforme apresenta a figura abaixo, a comunicação deve ser feita através de d
 
 ## Circuito
 
-Foi construído um protótipo com auxílio da ferramenta [TinkerCad](https://www.tinkercad.com/things/63d6NgXvJmt?sharecode=QsHwRUV66H45Ul2y8hSWyR613NitcmovdFFgzNKH6hI), usando duas placas Arduino Uno, uma *breadboard* e LEDS de controle de *handshake* e *clock*.
+Foi construído um protótipo com auxílio da ferramenta [TinkerCad](https://www.tinkercad.com/things/63d6NgXvJmt?sharecode=QsHwRUV66H45Ul2y8hSWyR613NitcmovdFFgzNKH6hI), usando duas placas Arduino Uno, uma *breadboard* e LEDS de controle de *handshake* e *clock*. Para testar, clique em ``simulate``, abra o código em ``code``, abra o monitor serial em ``Serial Monitor`` e altere entre os Arduinos ``1`` e ``2``, receptor e transmissor, para enviar e acompanhar a chegada das mensagens.
 
 <p align="center">
   <img src="images/circuit.png" width=800/>
