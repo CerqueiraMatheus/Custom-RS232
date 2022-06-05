@@ -33,7 +33,7 @@ A solução foi implementada considerando a transmissão individual de caractere
 ## Funcionamento
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=StTqXEQ2l-Y"><img src="https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg" /></a>
+  <a href="https://youtu.be/h9rj_4ujqRc"><img src="https://img.youtube.com/vi/h9rj_4ujqRc/default.jpg" /></a>
 </p>
 
 ## Estudantes
