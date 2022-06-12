@@ -32,6 +32,8 @@ A solução foi implementada considerando a transmissão individual de caractere
 
 ## Funcionamento
 
+Foi gravada uma [apresentação do funcionamento em conjunto com todos os membros do grupo (acessivel clicando aqui)](https://drive.google.com/drive/folders/1vYjKL73wLKLb6-1Is6lzn5XMPNWUVqgz), e, também, publicada uma versão demonstrando exclusivamente o teste da implementação, disponível abaixo:
+
 <p align="center">
   <a href="https://youtu.be/h9rj_4ujqRc"><img src="images/banner.png" width=800/></a>
 </p>
